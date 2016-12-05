@@ -132,3 +132,17 @@ noscript {
 	cursor: pointer;
 	margin-bottom: 0;
 }
+
+#grainlibrary {
+	margin: 0;
+	padding: 0;
+}
+
+#grainlibrary div {
+	height: 350px;
+}
+
+#grainlibrary div img {
+	float: right;
+	margin: 0 0 0 1em;
+}
