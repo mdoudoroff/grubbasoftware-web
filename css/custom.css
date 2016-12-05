@@ -1,0 +1,134 @@
+
+body {
+	margin-top: 18px;
+	background-color: rgb(217,217,217);
+}
+
+.container {
+  width: 820px;     /* Total width */
+}
+
+.question
+{
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.caption
+{
+	font-style: italic;
+	text-align: left;
+}
+
+.legal
+{
+	color: gray;
+	font-size: 10px;
+}
+
+/* navigational stuff */
+
+#navcontainer ul
+{
+float: right;
+border: 0;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+margin-bottom: 30px;
+}
+
+#navcontainer ul li
+{
+display: block;
+float: left;
+text-align: center;
+padding: 0;
+margin-left: 5px;
+}
+
+#navcontainer ul li a
+{
+width: 90px;
+height: 18px;
+padding: 0;
+margin: 0 0 10px 0;
+color: black;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+
+#navcontainer ul li a:hover
+{
+color: red;
+}
+
+#navcontainer a:active
+{
+color: #888;
+}
+
+#navcontainer li#active a
+{
+color: #888;
+}
+
+#grainnav ul
+{
+border: 0;
+margin: 0;
+padding: 0;
+list-style-type: none;
+margin-bottom: 30px;
+}
+
+#grainnav ul li
+{
+width: 180px;
+display: block;
+font-size: 11px;
+margin:  0 0 5px 0;
+}
+
+#grainnav ul li#activegrain {
+background: #666;
+color: #fff;
+padding:  1px 5px 1px 5px;
+}
+
+#grainnav ul li a
+{
+background: #fff;
+color: #aaa;
+text-decoration: none;
+display: block;
+padding:  1px 5px 1px 5px;
+width: 180px;
+}
+
+#grainnav ul li a:hover
+{
+color: #000;
+background: #aaa;
+}
+
+noscript {
+	color: #ff0f0f;
+	font-weight: bold;
+}
+
+.hilite {
+	background-color: #fdfc2b;
+}
+
+.ljust p, p.ljust {
+	text-align: left;
+}
+
+.masthead img {
+	cursor: pointer;
+	margin-bottom: 0;
+}
