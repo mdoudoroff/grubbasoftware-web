@@ -139,10 +139,11 @@
 			<h2>Using TrueGrain with Adobe Photoshop Lightroom</h2>
 			<p>Lightroom can be configured to use TrueGrain as an external editor. Simply configure Lightroom’s External Editing preferences panel as below:</p>
 			<img src="gfx/lr-settings.png" width="728" alt="Lr Settings" />
-			<p>We have, however, observed a few annoying limitations of which you should be aware:</p>
+			<p>A few limitations of which you should be aware:</p>
 			<ul>
-				<li>Lightroom 1.2 automatically flattens the keyword hierarchy when it routes an image through an external editor other than Photoshop. If you use hierarchical keywords, you may find that the image you get back from TrueGrain will need its keywords corrected.</li>
-				<li>Lightroom 1.2 automatically omits some IPTC fields when it routes an image through an external editor other than Photoshop. If you use IPTC fields such as <em>Location</em>, you may find that the image you get back from TrueGrain will need some IPTC fields corrected.</li>
+				<li><span class="hilite">TrueGrain can only edit a single image at a time.</span> If you select multiple images in Lightroom and send them to TrueGrain, only the first will actually get processed.</li>
+				<li>Lightroom automatically flattens the keyword hierarchy when it routes an image through an external editor other than Photoshop. If you use hierarchical keywords, you may find that the image you get back from TrueGrain will need its keywords corrected.</li>
+				<li>Lightroom automatically omits some IPTC fields when it routes an image through an external editor other than Photoshop. If you use IPTC fields such as <em>Location</em>, you may find that the image you get back from TrueGrain will need some IPTC fields corrected.</li>
 			</ul>
 		</div>
 

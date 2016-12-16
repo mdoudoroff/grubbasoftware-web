@@ -115,6 +115,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/custom-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/custom-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/custom.css": {
 		"aP": 0,
 		"bl": 0,
@@ -163,102 +173,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/filmlibrary.html",
-		"oF": 0
-		},
-	"\/filmlibrary_agfaapx400.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_agfaapx400.html",
-		"oF": 0
-		},
-	"\/filmlibrary_brf200.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_brf200.html",
-		"oF": 0
-		},
-	"\/filmlibrary_delta3200.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_delta3200.html",
-		"oF": 0
-		},
-	"\/filmlibrary_delta400.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_delta400.html",
-		"oF": 0
-		},
-	"\/filmlibrary_fortepan20.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_fortepan20.html",
-		"oF": 0
-		},
-	"\/filmlibrary_fp4.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_fp4.html",
-		"oF": 0
-		},
-	"\/filmlibrary_hp5.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_hp5.html",
-		"oF": 0
-		},
-	"\/filmlibrary_ir750.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_ir750.html",
-		"oF": 0
-		},
-	"\/filmlibrary_neopan400.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_neopan400.html",
-		"oF": 0
-		},
-	"\/filmlibrary_orwonp22.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_orwonp22.html",
-		"oF": 0
-		},
-	"\/filmlibrary_panx.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_panx.html",
-		"oF": 0
-		},
-	"\/filmlibrary_protrix.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_protrix.html",
-		"oF": 0
-		},
-	"\/filmlibrary_tmax400.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_tmax400.html",
-		"oF": 0
-		},
-	"\/filmlibrary_tmz3200.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_tmz3200.html",
-		"oF": 0
-		},
-	"\/filmlibrary_trixpan.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_trixpan.html",
-		"oF": 0
-		},
-	"\/filmlibrary_veripan.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/filmlibrary_veripan.html",
 		"oF": 0
 		},
 	"\/gfx": {
