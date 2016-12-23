@@ -80,29 +80,34 @@
 			<h2>Grain Scaling &amp; Intensity</h2>
 			<p>Each film implemented in TrueGrain includes laboriously photographed, developed, and scanned samples of genuine film grain from that particular stock. When you select a film, you are selecting the grain that will be applied to your image.</p>
 			<img src="gfx/ui-gs.png" width="400" alt="screen grab of film grain user interface" />
-			<p>The most important controls on the Film Grain tab of the user interface pertain to the scale of that grain. Presets are provided that correspond to the size of the grain exposures that were actually scanned; these vary by film (for example, Kodak TMZ 3200 was only available in 135, while others are available in 120 size). You may also enter in an arbitrary percentage value. The grain size you choose will depend on the dimensions of your source image and the particular results you are seeking.</p>
+			<p>The most important controls on the Film Grain tab of the user interface pertain to the scale of that grain. Presets are provided that correspond to the size of the grain exposures that were actually scanned; these vary by film (for example, Kodak TMZ 3200 was only available in 135, while others are available in 120 size). You may also set an arbitrary scale percentage value with the slider. The grain size you choose will depend on the dimensions of your source image and the particular results you are seeking.</p>
 			<p>The following examples show 1:1 scale details of Ilford Delta 3200 grain applied to the same image at three sizes, 110, 135 and 6×8 respectively:</p>
 			<img src="gfx/grain-scale-110.jpg" width="400" height="200" alt="example of grain scale at 110 film size" />
 			<img src="gfx/grain-scale-135.jpg" width="400" height="200" alt="example of grain scale at 135 film size" />
 			<img src="gfx/grain-scale-120.jpg" width="400" height="200" alt="example of grain scale at 120 film size" />
-			<p>A supplemental control, Image Resolution, is provided for situations where you are employing gigantic grain structure and the resolution of the source image is too high relative to the grain size. Adjusting this control allows you to scale down the source image appropriately. In the first example, below, arguably too much fine detail is visible through the immense grain of Kodak TMZ 3200 scaled to the 110 film size. In the second example, the image resolution has been scaled down interactively to produce a more balanced result.</p>
+			<!--<p>A supplemental control, Image Resolution, is provided for situations where you are employing gigantic grain structure and the resolution of the source image is too high relative to the grain size. Adjusting this control allows you to scale down the source image appropriately. In the first example, below, arguably too much fine detail is visible through the immense grain of Kodak TMZ 3200 scaled to the 110 film size. In the second example, the image resolution has been scaled down interactively to produce a more balanced result.</p>
 			<img src="gfx/image-res-example-100.jpg" width="400" height="200" alt="example of imager resolution at 100%" />
-			<img src="gfx/image-res-example-33.jpg" width="400" height="200" alt="example of image resolution at 33%" />
-			<p>In the real world, graininess can be influenced by various factors such as the given batch of film and the development process. More fundamentally, the film grain of any given film expresses itself (“explodes”) non-linearly across the dynamic range of an image. Some films show little grain outside a narrow band of grays, whereas others show grain even the lights whites. We measure and profile this behavior for each film, and the result is a curve you can manipulate for creative effects. In addition, a slider control is provided for biasing the intensity of grain according to your own creative preferences.</p>
+			<img src="gfx/image-res-example-33.jpg" width="400" height="200" alt="example of image resolution at 33%" />-->
+			<p>In the real world, graininess can be influenced by various factors such as the given batch of film and the development process. More fundamentally, the film grain of any given film expresses itself (“explodes”) non-linearly across the dynamic range of an image. Some films show little grain outside a narrow band of grays, whereas others show grain even the lightest whites. We measure and profile this behavior for each film, and the result is a curve you can manipulate for creative effects. In addition, a slider control is provided for biasing the intensity of grain according to your own creative preferences.</p>
 			<img src="gfx/ui-gi.png" width="400" alt="screen grab of film grain user interface" />
-			<p>These examples show Ilford HP5 Plus scaled to 135 film size and applied at 50%, 100% and 150% intensity, respectively.</p>
+			<p>A handy slider is provided to override the measured behavior for aesthetic reasons, either in the stronger (coarser) and milder (finer) direction. These examples show Ilford HP5 Plus applied at -50%, default measured and +50%, respectively.</p>
 			<img src="gfx/grain-intensity-example-50.jpg" width="400" height="250" alt="example of grain intensity at 50%" />
 			<img src="gfx/grain-intensity-example-100.jpg" width="400" height="250" alt="example of grain intensity at 100%" />
 			<img src="gfx/grain-intensity-example-150.jpg" width="400" height="250" alt="example of grain intensity at 150%" />
 		</div>
 
-		<div class="column span-16 first">
+		<div class="column span-7 first">
 			<h2>Save and load presets</h2>
-			<p>You can selectively save and load presets of parameter settings. For example, if you create a custom spectral response curve you really like, you can simply save the Spectral Response settings as a preset and then apply it at any time without disturbing the other settings. Likewise, the new presets feature makes it easier to apply exactly the same custom settings to multiple images. (If you are familiar with the preset system in Lightroom, you should feel right at home with TrueGrain's new preset feature.)</p>
+
+			<p>You can selectively save and load presets of parameter settings. For example, if you create a custom spectral response curve you really like, you can simply save the Spectral Response settings as a preset and then apply it at any time without disturbing the other settings. Likewise, the new presets feature makes it easier to apply exactly the same custom settings to multiple images. (If you are familiar with the preset system in Lightroom, you should feel right at home with TrueGrain’s preset feature.)</p>
             <p>Moreover, you can batch apply a preset to multiple files, unattended. Simply define a preset that contains the complete settings you wish to use, invoke the batch feature from the File menu, and choose the files you wish you process. See the <a href="workflow.html">workflow</a> page for more details.</p>
 		</div>
+		<div class="column span-5 last">
+			<img src="gfx/batch-dialogue.png" style="max-height: 300px;" />
 
-		<div class="column span-8 prepend-4 first">
+		</div>
+
+		<div class="column span-6 prepend-4 first">
 			<h3>Next pages:</h3>
 			<ul>
 				<li><a href="workflow.html">Get a detailed description of how TrueGrain can integrate into your workflow</a></li>
