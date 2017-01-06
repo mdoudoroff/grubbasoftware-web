@@ -6,7 +6,7 @@ body {
 }
 
 a {
-	color: rgb(200,200,255);
+	color: rgb(255,255,255);
 }
 
 a:hover {
@@ -45,6 +45,7 @@ li {
 	font-weight: bold;
 	text-align: left;
 	margin-bottom: 0;
+	color: white;
 }
 
 .caption
