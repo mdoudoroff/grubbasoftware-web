@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print" />
+	<link rel="stylesheet" href="css/custom.css" type="text/css" media="screen, projection" />
+	<title>TrueGrain Help</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="column span-12 first">
+			<a href="index.html"><img src="gfx/masthead5.png" width="700" height="154" alt="TrueGrain logotype" /></a>
+		</div>
+
+<!--		<div class="column span-11 prepend-1 first" id="navcontainer">
+			<ul id="navlist">
+				<li id="active"><a href="index.html">Overview</a></li>
+				<li><a href="filmlibrary.html" id="current">Grain Library</a></li>
+				<li><a href="features.html">Features</a></li>
+				<li><a href="workflow.html">Workflow</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				
+				<li><a href="download.html">Download</a></li>				
+				<li class="last"><a href="purchase.html">Purchase</a></li>
+			</ul>
+		</div>-->
+
+		<div class="column span-12 first">
+
+			<h1>TrueGrain 2 Help</h1>
+
+			<p>This document provides a concise operational reference to TrueGrain. It does not repeat contextual detail found on the <a href="http://grubbasoftware.com">TrueGrain web site</a>. If neither this document nor the web site adequately addresses your questions, please <a href="http://grubbasoftware.com/contact.html">contact us</a>.</p>
+			
+			<h2>Opening source files</h2>
+			<p>TrueGrain can load color or grayscale uncompressed TIF files with 8-bits or 16-bits per channel, and JPG images.</p>
+			<p>TrueGrain will honor whatever ICC profile is embedded in the source image. There is no need to deviate from whatever working space you have adopted in Photoshop or Lightroom.</p>
+			<p>Once you open a file, it will appear in the preview in grayscale.</p>
+			
+			<h2>Choosing a film</h2>
+			<p>After loading an image, your next step will be to choose a film stock from the Film Type selector.</p>
+			<img src="gfx/ui-filmtype.jpg" width="392" alt="Ui Filmtype" />
+			<p>After you choose a film, the preview image will update to show your image converted to the selected film with default settings.</p>
+
+			<h2>Saving your converted image</h2>
+			<p>To save your converted image on top of the file you opened, choose <em>Save</em> from the File menu.</p>
+			<p>To save your converted image to a new file, choose <em>Save as...</em> from the File menu.</p>
+			
+			<h2>Adjusting the preview</h2>
+			<p>You can adjust the preview window with the Proxy controls:</p>
+			<img src="gfx/ui-proxy.jpg" width="389" alt="Ui Preview" />
+			<p>If you disable the Preview with the switch, the preview will no longer render—you will be <em>flying blind</em>—but you can toggle back and forth to compare the processed results with your original image.</p>
+			<p>The select box control enables you to zoom in or out on your image. While zoomed in, you can pan about the image by clicking and dragging in the preview display.</p>
+			
+			<div class="column span-6 first">
+			<h2>Customizing how the film grain is applied</h2>
+			<p>To customize how film grain is applied to your image, choose the Film Grain tab, and make sure it isn’t disabled with the switch.</p>
+			<p>Changes you make in the Film Grain settings are reflected in the preview immediately after you make them.</p>
+			<p>To select the size (scale) of the grain, make a different choice in the <em>Film Size Presets</em> or enter your own scaling percentage with the slider. (You will probably want to zoom to 100% in the preview window when doing this, so that you can really see the grain.) Scale is relative to the largest size of film grain provided. A graphic representation of your source image is provided against the currently-selected grain sample, to provide a sense of how your scale choice would relate to an actual piece of film.</p>
+
+			<p>Two controls are provided to adjust the intensity of the applied grain:</p>
+			<p>The slider will simply make the grain more or less intense (coarse), with the middle position corresponding to the neutral, measured intensity.</p>
+			<p>The editable curve controls how strongly the grain expresses itself across the dynamic range of the image (dark to light). By default, this curve represents the neutral, measured behavior of the film, but you can adjust the curve for creative purposes. (Right-click on the curve for more options.)</p>
+
+			</div>
+			<div class="column span-6 last">
+				<img src="gfx/ui-fg.jpg" width="390" alt="Ui Fg" />
+			</div>
+
+			<h2>Customizing the grayscale conversion</h2>
+			<p>TrueGrain converts color images to grayscale in a way that gets very close to how a given film stock responds to both the quantity and wavelength (color) of light. The more saturated tones of your source image are governed by the film’s spectral response profile. The more neutral tones of your source image are governed by the film’s dynamic range profile. You have custom control over these profiles in the Spectral Response and Dynamic Range tags of the interface.</p>
+			
+			<div class="column span-6 first">
+			<h3>Spectral Response controls</h3>
+			<p>Once you choose a film, the curve in this tab is updated to show the spectral response to hue for that film. This curve is derived from a measured profile.</p> 
+			<p>Additional profiles—color filters commonly used in black & white photography—for the selected film can be chosen from the <em>Filter</em> selector.</p>
+			<p>The curve in the above example suggests that the currently-selected film is more sensitive to blues and less sensitive to greens. Consequently, the blues in your image will appear lighter and the greens, darker.</p>
+			<p>For custom effects, you can edit the curve simply by clicking and dragging on the nodes. Moreover, if you right-click (ctrl+click on a MacBook) on the curve, you can add or remove nodes, flatten or flip the curve, or restore it to its defaults.</p>
+			<p>The best way to understand the spectral response controls is to play around with them. A picture with strong colors will help.</p> 
+			</div>
+			<div class="column span-6 last">
+				<img src="gfx/ui-sr.jpg" width="391" alt="Ui Sr" />
+			</div>
+
+			<div class="column span-12 last">&nbsp;</div>
+
+			<div class="column span-6 first">
+			<h3>Dynamic Range controls</h3>
+			
+			<p>The Dynamic Range curve reflects a measured profile for the currently-selected film type. This profile reflects the response characteristics of the film to neutral tones, from dark to light, and the curve will generally be vaguely shaped like an “s”, as above. If you are familiar with the “curves” control in Photoshop, you will find this tool similar.</p>
+			<p>For custom effects, you can edit the curve simply by clicking and dragging on the nodes. Moreover, if you right-click (ctrl+click on a MacBook) on the curve, you can add or remove nodes or flatten the curve. The opacity slider can be used to roll off the effects of the profile entirely. (Normally, opacity should be at 100%.)</p>
+			<p>In practice, you are most likely to make subtle changes to this curve—making it more or less steep—to alter the contrast of the image. Remember that the effects of this curve will be most clearly seen in the neutral (less saturated) areas of your image.</p>
+			</div>
+			<div class="column span-6 last">
+				<img src="gfx/ui-dr.jpg" width="390" alt="Ui Dr" />
+			</div>
+		</div>
+
+		<hr />
+
+		<div class="column span-8 first">
+			<p>Copyright &copy; 2007 Grubba Software. All rights reserved.</p>
+			<p class="legal">Bergger and BRF-200 are trademarks of Bergger Products, Inc.</p>
+		</div>
+		<div class="column span-4 last">
+			<a href="index.html"><img src="gfx/logo.grubbasoft2.png" style="float:right;" width="257" alt="grubbasoft logotype" /></a>
+		</div>
+
+	</div><!-- #container -->
+
+</body>
+</html>
