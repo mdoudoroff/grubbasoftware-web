@@ -517,11 +517,43 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/press\/thumbs\/screen1.png": {
+		"ft": 32768,
+		"iS": 109502,
+		"oA": 1,
+		"oAP": "\/press\/thumbs\/screen1.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/press\/thumbs\/screen2.jpg": {
 		"ft": 16384,
 		"iS": 9822,
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/screen2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/press\/thumbs\/screen2.png": {
+		"ft": 32768,
+		"iS": 91815,
+		"oA": 1,
+		"oAP": "\/press\/thumbs\/screen2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/press\/v2-screen1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 1,
+		"oAP": "\/press\/v2-screen1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/press\/v2-screen2.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 1,
+		"oAP": "\/press\/v2-screen2.png",
 		"oF": 0,
 		"opt": 0
 		},
