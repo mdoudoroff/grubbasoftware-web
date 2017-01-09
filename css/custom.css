@@ -1,6 +1,6 @@
 
 body {
-	margin-top: 18px;
+	margin-top: 0;
 	background-color: rgb(54,54,54);
 	color: rgb(210,210,210);
 }
@@ -31,7 +31,6 @@ li {
 }
 
 
-
 .box {
 	background-color: rgb(100,100,100);
 }
@@ -60,17 +59,42 @@ li {
 	font-size: 10px;
 }
 
+
+#masthead {
+	height: 172px;
+	background-color: rgb(240,240,240);
+	margin-bottom: 30px;
+	background: url('../gfx/bkgd.jpg');
+	background-position: center;
+}
+
+#mastheadcorral {
+	position: relative;
+	width: 820px;
+	margin: 0 auto 0 auto;
+	height: 172px;
+}
+#logotype {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
 /* navigational stuff */
 
+#navcontainer {
+	position: absolute;
+right: 0px;
+bottom: 0px;
+
+}
 #navcontainer ul
 {
-float: right;
 border: 0;
 margin: 0;
 padding: 0;
 list-style-type: none;
 text-align: center;
-margin-bottom: 30px;
 }
 
 #navcontainer ul li
@@ -79,16 +103,17 @@ display: block;
 float: left;
 text-align: center;
 padding: 0;
-margin-left: 5px;
+margin-left: 3em;
+font-weight: bold;
 }
 
 #navcontainer ul li a
 {
-width: 90px;
+// width: 90px;
 height: 18px;
 padding: 0;
 margin: 0 0 10px 0;
-color: white;
+color: black;
 text-decoration: none;
 display: block;
 text-align: center;
@@ -106,7 +131,7 @@ color: #888;
 
 #navcontainer li#active a
 {
-color: #888;
+color: white;
 }
 
 #grainnav ul

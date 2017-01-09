@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/aesthetics.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/aesthetics.html",
-		"oF": 0
-		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -161,12 +155,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/features.html",
-		"oF": 0
-		},
-	"\/film-look.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/film-look.html",
 		"oF": 0
 		},
 	"\/filmlibrary.html": {
@@ -315,24 +303,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
-		"oF": 0
-		},
-	"\/install-help-macintosh.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/install-help-macintosh.html",
-		"oF": 0
-		},
-	"\/install-help-windows.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/install-help-windows.html",
-		"oF": 0
-		},
-	"\/matching.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/matching.html",
 		"oF": 0
 		},
 	"\/press-images.html": {
@@ -589,12 +559,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/purchase.html",
-		"oF": 0
-		},
-	"\/support.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/support.html",
 		"oF": 0
 		},
 	"\/workflow.html": {
