@@ -126,12 +126,12 @@ color: red;
 
 #navcontainer a:active
 {
-color: #888;
 }
 
 #navcontainer li#active a
 {
-color: white;
+color: black;
+border-bottom: 3px solid black;
 }
 
 #grainnav ul
