@@ -169,6 +169,12 @@
 		"oAP": "\/build\/gfx",
 		"oF": 0
 		},
+	"\/Help.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Help.zip",
+		"oF": 0
+		},
 	"\/Help\/css\/blueprint\/lib\/buttons.css": {
 		"aP": 0,
 		"bl": 0,
