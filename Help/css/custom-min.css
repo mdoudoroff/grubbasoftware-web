@@ -1,6 +1,6 @@
 
 body {
-	margin-top: 18px;
+	margin-top: 0;
 	background-color: rgb(54,54,54);
 	color: rgb(210,210,210);
 }
@@ -31,7 +31,6 @@ li {
 }
 
 
-
 .box {
 	background-color: rgb(100,100,100);
 }
@@ -58,6 +57,27 @@ li {
 {
 	color: rgb(220,220,220);
 	font-size: 10px;
+}
+
+
+#masthead {
+	height: 172px;
+	background-color: rgb(240,240,240);
+	margin-bottom: 30px;
+	background: url('../gfx/bkgd.jpg');
+	background-position: center;
+}
+
+#mastheadcorral {
+	position: relative;
+	width: 820px;
+	margin: 0 auto 0 auto;
+	height: 172px;
+}
+#logotype {
+	position: absolute;
+	left: 0;
+	top: 10px;
 }
 
 /* navigational stuff */

@@ -9,56 +9,70 @@
 </head>
 <body>
 
+
+	<div id="masthead">
+
+		<div id="mastheadcorral">
+
+			<img src="gfx/masthead6.png" width="700" height="154" alt="TrueGrain 2" id="logotype" />
+
+		</div>
+		
+	</div>
+
 	<div class="container">
 
-		<div class="column span-12 first">
-			<a href="index.html"><img src="gfx/masthead5.png" width="700" height="154" alt="TrueGrain logotype" /></a>
-		</div>
-
-<!--		<div class="column span-11 prepend-1 first" id="navcontainer">
-			<ul id="navlist">
-				<li id="active"><a href="index.html">Overview</a></li>
-				<li><a href="filmlibrary.html" id="current">Grain Library</a></li>
-				<li><a href="features.html">Features</a></li>
-				<li><a href="workflow.html">Workflow</a></li>
-				<li><a href="faq.html">FAQ</a></li>
-				
-				<li><a href="download.html">Download</a></li>				
-				<li class="last"><a href="purchase.html">Purchase</a></li>
-			</ul>
-		</div>-->
 
 		<div class="column span-12 first">
 
 			<h1>TrueGrain 2 Help</h1>
 
-			<p>This document provides a concise operational reference to TrueGrain. It does not repeat contextual detail found on the <a href="http://grubbasoftware.com">TrueGrain web site</a>. If neither this document nor the web site adequately addresses your questions, please <a href="http://grubbasoftware.com/contact.html">contact us</a>.</p>
+			<p>This document provides a concise operational reference to TrueGrain. It does not repeat contextual detail found on the <a href="http://grubbasoftware.com">TrueGrain web site</a>. If neither this document nor the web site adequately addresses your questions, please don’t hesitate to <a href="http://grubbasoftware.com/contact.html">contact us</a>.</p>
 			
 			<h2>Opening source files</h2>
-			<p>TrueGrain can load color or grayscale uncompressed TIF files with 8-bits or 16-bits per channel, and JPG images.</p>
+			<p>TrueGrain can load:</p>
+			<ul>
+				<li>color or grayscale uncompressed TIF files with 8-bits or 16-bits per channel</li>
+				<li>JPEG images</li>
+			</ul>
 			<p>TrueGrain will honor whatever ICC profile is embedded in the source image. There is no need to deviate from whatever working space you have adopted in Photoshop or Lightroom.</p>
-			<p>Once you open a file, it will appear in the preview in grayscale.</p>
+
+			<p>Generally speaking, the best source material for TrueGrain is a high resolution 16-bit color TIF (or grayscale if you’re bypassing TrueGrain’s spectral and dynamic range conversion features). However, the absolute highest resolution possible source photo is <strong>not</strong> always what you want:</p>
+
+			<p>In terms of spatial resolution, the amount of detail in your source image needs to have some reasonable relationship with the grain you will be applying in TrueGrain. With today’s digital cameras, it’s not that hard to produce an image with more detail than a film camera of comparable frame size could have ever produced. Given the grain samples in TrueGrain were scanned at 4000 dpi, <span class="hilite">the following are the theoretical maximum resoulutions you would want your source imagery to be, depending on the film size you wish to simulate:</span></p>
+
+			<table>
+				<tr><td>110</td><td>2362 x 1732</td></tr>
+				<tr><td>135</td><td>5354 x 3465</td></tr>
+				<tr><td>6x4.5</td><td>7874 x 6250</td></tr>
+				<tr><td>6x6</td><td>7874 x 7874</td></tr>
+				<tr><td>6x8</td><td>11340 x 7874</td></tr>
+			</table>
+
+			<p>Don’t get too hung up on all this trivia, however: start with your full resolution source image and find the look you desire in TrueGrain. If you’re using for really large grain structure and you feel you’re seeing too much image detail amidst the grain, try scaling a copy of your source image down to the appropriate size (see table, above) and process that with the same settings.</p>
 			
 			<h2>Choosing a film</h2>
 			<p>After loading an image, your next step will be to choose a film stock from the Film Type selector.</p>
 			<img src="gfx/ui-filmtype.jpg" width="392" alt="Ui Filmtype" />
+			<p><strong>If film stocks aren’t available in the selector, click the button next to it with the gear icon, and download one or more films.</strong></p>
 			<p>After you choose a film, the preview image will update to show your image converted to the selected film with default settings.</p>
 
 			<h2>Saving your converted image</h2>
 			<p>To save your converted image on top of the file you opened, choose <em>Save</em> from the File menu.</p>
 			<p>To save your converted image to a new file, choose <em>Save as...</em> from the File menu.</p>
+			<p><strong>In any case, your processed image will be saved as a 16-bit monochrome TIF file with an embedded Gray Gamma 2.2 ICC profile.</strong></p>
 			
 			<h2>Adjusting the preview</h2>
-			<p>You can adjust the preview window with the Proxy controls:</p>
+			<p>You can adjust the preview window with the Preview controls:</p>
 			<img src="gfx/ui-proxy.jpg" width="389" alt="Ui Preview" />
-			<p>If you disable the Preview with the switch, the preview will no longer render—you will be <em>flying blind</em>—but you can toggle back and forth to compare the processed results with your original image.</p>
+			<p>If you disable the Preview with the switch, the preview will no longer render—you will be <em>flying blind</em>. However, this switch is useful to toggle back and forth and compare the processed results with your original image.</p>
 			<p>The select box control enables you to zoom in or out on your image. While zoomed in, you can pan about the image by clicking and dragging in the preview display.</p>
 			
 			<div class="column span-6 first">
 			<h2>Customizing how the film grain is applied</h2>
 			<p>To customize how film grain is applied to your image, choose the Film Grain tab, and make sure it isn’t disabled with the switch.</p>
 			<p>Changes you make in the Film Grain settings are reflected in the preview immediately after you make them.</p>
-			<p>To select the size (scale) of the grain, make a different choice in the <em>Film Size Presets</em> or enter your own scaling percentage with the slider. (You will probably want to zoom to 100% in the preview window when doing this, so that you can really see the grain.) Scale is relative to the largest size of film grain provided. A graphic representation of your source image is provided against the currently-selected grain sample, to provide a sense of how your scale choice would relate to an actual piece of film.</p>
+			<p>To select the size (scale) of the grain, make a different choice in the <em>Film Size Presets</em> or enter your own scaling percentage with the slider. (You will probably want to zoom to 100% in the preview window when doing this, so that you can really see the grain.) Scale is relative to the largest size of film grain provided. A graphic representation of your source image is provided against the currently-selected grain sample to provide a sense of how your scale choice would relate to an actual piece of film.</p>
 
 			<p>Two controls are provided to adjust the intensity of the applied grain:</p>
 			<p>The slider will simply make the grain more or less intense (coarse), with the middle position corresponding to the neutral, measured intensity.</p>
@@ -102,10 +116,9 @@
 
 		<div class="column span-8 first">
 			<p>Copyright &copy; 2007 Grubba Software. All rights reserved.</p>
-			<p class="legal">Bergger and BRF-200 are trademarks of Bergger Products, Inc.</p>
+			<p class="legal">The trademarked names of film producers and their products referenced here are the property of their respective owners.</p>
 		</div>
 		<div class="column span-4 last">
-			<a href="index.html"><img src="gfx/logo.grubbasoft2.png" style="float:right;" width="257" alt="grubbasoft logotype" /></a>
 		</div>
 
 	</div><!-- #container -->
