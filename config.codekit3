@@ -169,12 +169,6 @@
 		"oAP": "\/build\/gfx",
 		"oF": 0
 		},
-	"\/Help.zip": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Help.zip",
-		"oF": 0
-		},
 	"\/Help\/css\/blueprint\/lib\/buttons.css": {
 		"aP": 0,
 		"bl": 0,
@@ -309,6 +303,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/license.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.html",
 		"oF": 0
 		},
 	"\/press-images.html": {
