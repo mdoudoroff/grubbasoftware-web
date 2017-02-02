@@ -139,6 +139,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/download-v1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/download-v1.html",
+		"oF": 0
+		},
 	"\/download.html": {
 		"ft": 8192,
 		"oA": 2,
