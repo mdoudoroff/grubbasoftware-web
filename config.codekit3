@@ -7,7 +7,7 @@
 		"uuidString": "A0AEF8D8-653A-491C-8042-5AA7BD2EA262"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -335,7 +335,8 @@
 		"oA": 1,
 		"oAP": "\/press\/cindi1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/cindi1-processed.jpg": {
 		"ft": 16384,
@@ -343,7 +344,8 @@
 		"oA": 1,
 		"oAP": "\/press\/cindi1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/deidre1-original.jpg": {
 		"ft": 16384,
@@ -351,7 +353,8 @@
 		"oA": 1,
 		"oAP": "\/press\/deidre1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/deidre1-processed.jpg": {
 		"ft": 16384,
@@ -359,7 +362,8 @@
 		"oA": 1,
 		"oAP": "\/press\/deidre1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/grain-swatches.jpg": {
 		"ft": 16384,
@@ -367,7 +371,8 @@
 		"oA": 1,
 		"oAP": "\/press\/grain-swatches.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/gus1-original.jpg": {
 		"ft": 16384,
@@ -375,7 +380,8 @@
 		"oA": 1,
 		"oAP": "\/press\/gus1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/gus1-processed.jpg": {
 		"ft": 16384,
@@ -383,7 +389,8 @@
 		"oA": 1,
 		"oAP": "\/press\/gus1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/gus2-original.jpg": {
 		"ft": 16384,
@@ -391,7 +398,8 @@
 		"oA": 1,
 		"oAP": "\/press\/gus2-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/gus2-processed.jpg": {
 		"ft": 16384,
@@ -399,7 +407,8 @@
 		"oA": 1,
 		"oAP": "\/press\/gus2-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/martin1-original.jpg": {
 		"ft": 16384,
@@ -407,7 +416,8 @@
 		"oA": 1,
 		"oAP": "\/press\/martin1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/martin1-processed.jpg": {
 		"ft": 16384,
@@ -415,7 +425,8 @@
 		"oA": 1,
 		"oAP": "\/press\/martin1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/screen1.jpg": {
 		"ft": 16384,
@@ -423,7 +434,8 @@
 		"oA": 1,
 		"oAP": "\/press\/screen1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/screen2.jpg": {
 		"ft": 16384,
@@ -431,7 +443,8 @@
 		"oA": 1,
 		"oAP": "\/press\/screen2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/cindi1-original.jpg": {
 		"ft": 16384,
@@ -439,7 +452,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/cindi1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/cindi1-processed.jpg": {
 		"ft": 16384,
@@ -447,7 +461,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/cindi1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/deidre1-original.jpg": {
 		"ft": 16384,
@@ -455,7 +470,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/deidre1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/deidre1-processed.jpg": {
 		"ft": 16384,
@@ -463,7 +479,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/deidre1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/grain-swatches.jpg": {
 		"ft": 16384,
@@ -471,7 +488,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/grain-swatches.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/gus1-original.jpg": {
 		"ft": 16384,
@@ -479,7 +497,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/gus1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/gus1-processed.jpg": {
 		"ft": 16384,
@@ -487,7 +506,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/gus1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/gus2-original.jpg": {
 		"ft": 16384,
@@ -495,7 +515,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/gus2-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/gus2-processed.jpg": {
 		"ft": 16384,
@@ -503,7 +524,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/gus2-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/martin1-original.jpg": {
 		"ft": 16384,
@@ -511,7 +533,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/martin1-original.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/martin1-processed.jpg": {
 		"ft": 16384,
@@ -519,7 +542,8 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/martin1-processed.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/screen1.jpg": {
 		"ft": 16384,
@@ -527,15 +551,18 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/screen1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/screen1.png": {
 		"ft": 32768,
 		"iS": 109502,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/screen1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/screen2.jpg": {
 		"ft": 16384,
@@ -543,31 +570,38 @@
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/screen2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/thumbs\/screen2.png": {
 		"ft": 32768,
 		"iS": 91815,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/press\/thumbs\/screen2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/v2-screen1.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/press\/v2-screen1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press\/v2-screen2.png": {
 		"ft": 32768,
 		"iS": 0,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/press\/v2-screen2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/press_release-140909.html": {
 		"ft": 8192,
@@ -585,6 +619,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/press_release-161007b.html",
+		"oF": 0
+		},
+	"\/press_release-170315.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/press_release-170315.html",
 		"oF": 0
 		},
 	"\/press_release-180907.html": {
@@ -1292,6 +1332,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1489,6 +1533,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1768,6 +1816,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1819,6 +1871,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1913,6 +1969,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2359,7 +2419,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2452,7 +2513,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
